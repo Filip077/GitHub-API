@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">GitHubApi</string>
-    <string name="search_for_users">Search for users</string>
-    <string name="search">Search for users</string>
+    <string name="search_for_users">Search</string>
+    <string name="search">Search for user repositories</string>
 </resources>

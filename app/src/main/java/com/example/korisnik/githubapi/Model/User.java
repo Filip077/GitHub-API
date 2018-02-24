@@ -5,11 +5,11 @@ package com.example.korisnik.githubapi.Model;
  */
 
 public class User {
-    private String login;
+    private String name;
     private String avatar_url;
 
-    public String getLogin() {
-        return login;
+    public String getName() {
+        return name;
     }
 
     public String getAvatar_url() {
