@@ -57,4 +57,26 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:itemBackground="@color/cardview_shadow_start_color"
+        app:itemIconTint="@drawable/nav_selector"
+        app:itemTextColor="@drawable/nav_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu"
+        >
+
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+
 </android.support.constraint.ConstraintLayout>
